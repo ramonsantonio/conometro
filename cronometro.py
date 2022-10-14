@@ -13,7 +13,7 @@ janela.title('Cronometro') # Nome do software
 janela.geometry('370x200')
 janela.resizable(width=False, height=False)
 janela.configure(background=cor1)
-#janela.iconphoto(False, tk.PhotoImage(file='yo')) # icone do software
+janela.iconphoto(False, tk.PhotoImage(file='logo.png')) # icone do software
 
 
 global tempo
